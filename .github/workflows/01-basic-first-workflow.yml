@@ -9,8 +9,4 @@ jobs:
     steps:
       - name: Print hello world
         run: echo "Hello world"
-      - name: Step2
-        run: echo "hello world 2"
-  job-2:
-
-  job-3:
+ 
