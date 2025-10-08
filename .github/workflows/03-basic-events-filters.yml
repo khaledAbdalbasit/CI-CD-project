@@ -1,9 +1,14 @@
 name: 01 Basics First Workflow
 
 on:
-  pull_request:
-    types:
-      - closed
+#  pull_request:
+#    types:
+#      - closed
+#      - reopened
+
+  push:
+    branches:
+      - main
 
 jobs:
   print-hello-world:
