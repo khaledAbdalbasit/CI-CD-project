@@ -1,8 +1,9 @@
 name: 01 Basics First Workflow
 
 on:
-  repository_dispatch:
-    types: [custom-event]
+  on:
+    schedule:
+      - cron: "*/5 * * * *"
 
 jobs:
   print-hello-world:
