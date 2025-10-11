@@ -1,7 +1,6 @@
 name: 01 Basics First Workflow
 
 on:
-  on:
     schedule:
       - cron: "*/5 * * * *"
 
