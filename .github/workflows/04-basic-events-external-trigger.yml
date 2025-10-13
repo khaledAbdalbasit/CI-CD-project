@@ -1,13 +1,13 @@
-name: 01 Basics First Workflow
-
-on:
-    schedule:
-      - cron: "*/5 * * * *"
-
-jobs:
-  print-hello-world:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print hello world
-        run: echo "Hello world"
-
+#name: 01 Basics First Workflow
+#
+#on:
+#    schedule:
+#      - cron: "*/5 * * * *"
+#
+#jobs:
+#  print-hello-world:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Print hello world
+#        run: echo "Hello world"
+#
