@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print context data
-        run: echo ${{github}}
+        run: echo ${{tojson(github)}}
 
