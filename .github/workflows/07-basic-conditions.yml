@@ -1,4 +1,4 @@
-name: 01 Basics First Workflow
+name: 07 Basics Condition
 
 on:
   pull_request:
