@@ -1,11 +1,11 @@
-name: 01 Basics First Workflow
+# name: 01 Basics First Workflow
 
-on: [push,pull_request]
+# on: [push,pull_request]
 
-jobs:
-  print-hello-world:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print hello world
-        run: echo "Hello world"
+# jobs:
+#   print-hello-world:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Print hello world
+#         run: echo "Hello world"
 
