@@ -1,5 +1,5 @@
-name: 01 Basics First Workflow
-run-name: Khaled abdalbasit
+name: 06 Basics Context
+run-name: ${{github.actor}}
 on:
    workflow_dispatch:
 
