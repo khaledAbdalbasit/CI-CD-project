@@ -4,16 +4,15 @@ on:
   pull_request:
     types:
       - closed
+
 jobs:
   print-hello-world:
     runs-on: ubuntu-latest
-    if: ${{github.event.pull_request.merged == true}}
+    if: ${{ github.event.pull_request.merged == true }}
     steps:
       - name: Print hello world
-        run: echo ${{tojson(github)}}
+        run: echo '${{ toJson(github) }}'
 
       - name: Print conditional message
-        if : github.event.pull_request.changed_files > 1
+        if: ${{ github.event.pull_request.changed_files > 1 }}
         run: echo "multiple files changed"
-
-
